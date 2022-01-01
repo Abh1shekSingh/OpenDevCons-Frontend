@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400&display=swap');
+
+.repoSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:3em ;
+    
+}
+
+
+.repo__Heading h1{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    color: #222
+}
+
+.repo__text p{
+    font-family: 'Recursive',sans-serif;
+    padding: 2em 0;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.repo h2{
+    text-align: left;
+    padding: .5em 0em;
+}
+.repo h5{
+    text-align: left;
+    
+}
+
+.repo p{
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Roboto';
+    padding: .8em 0em;
+}
+
+@media only screen and (max-width: 950px) {
+    .repo__Heading h1{
+        font-size: 28px;
+        margin: 0 3em;
+       
+    }
+
+    .repo__text{
+        font-size: 13px;
+    }
+}

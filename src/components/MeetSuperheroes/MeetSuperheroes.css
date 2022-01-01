@@ -1,0 +1,59 @@
+.superheroes__Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7em;
+
+}
+
+.Heading__Section h1{
+    font-weight: 800;
+    font-family: 'Montserrat';
+    font-size: 38px;
+    padding: 0 0 2em 0;
+    text-align: center;
+    color: #333;
+}
+
+.everyCard{
+    border: 3px solid #efefef;
+    
+}
+
+.cardHolderName h2{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    margin: 0;
+}
+
+.cardDesignation p{
+    font-family: 'Recursive';
+    font-size: 14px;
+    margin: 0;
+}
+
+.socialHandles a{
+    margin-top: 0;
+    padding: 0;
+    margin-left: .5em;
+    cursor: pointer;
+    color: #222;
+}
+
+.socialHandles a:hover{
+    color:#222
+}
+
+@media only screen and (max-width: 950px) {
+    .Heading__Section h1{
+        font-size: 30px;
+    }
+    .everyCard{
+        margin: 0 3em;
+        text-align: center;
+    }
+    
+  
+}

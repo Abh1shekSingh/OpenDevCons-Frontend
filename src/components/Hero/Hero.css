@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400&display=swap');
+
+.heroSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9em 0em 0 0;
+    background-color: #efffff;
+    position: relative;
+    z-index: 1;
+}
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__content__heading h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+    color: #222;
+}
+
+.hero__content__text p{
+    font-family: 'Recursive' , sans-serif;
+    text-align: center;
+    padding: 1.5em 0em;
+}
+
+
+.hero__content__button button{
+    background-color: #076AE1;
+    padding: .9em;
+    color: white;
+    font-family: 'Recursive' , sans-serif;
+    font-size: 20px;
+    border-radius: 7px;
+    border-style: none;
+    border-width:0 ;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+}
+
+.hero__content__button button:hover{
+    transform: scale(1.05);
+    box-shadow: 20px 20px 50px 10px #efffff;
+}
+
+.hero__content__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+
+
+
+.hero__image img{
+    position: relative;
+    width: 75%;
+    top: -4em;
+
+      
+}
+
+.hero__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* margin-right: 71em;*/   
+} 
+
+
+@media only screen and (max-width: 950px) {
+    
+    .heroSection{
+        padding: 5em 0 0 0 ;
+    }
+    .hero__content__heading h1{
+        text-align: center;
+        font-size: 30px;
+
+    }
+
+    .hero__content__text p{
+        font-weight: 600;
+        text-align: center;
+        padding: 1.5em 0em;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .hero__content__button button{
+        font-size: 15px;
+ 
+    }
+
+    .hero__content__button{
+        width: 70%;
+    }
+
+    .hero__image img{
+        
+        margin-top: 2.5em;
+        width: 100%;
+        
+    }
+
+}

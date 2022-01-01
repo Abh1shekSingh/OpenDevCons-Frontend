@@ -1,0 +1,52 @@
+.heading h4{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.subHeading{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 0 1em 0;
+}
+
+.descContent p{
+    font-family: 'Recursive',sans-serif;
+}
+
+
+.button {
+    margin: 0 .5em 1em .5em ;
+    
+  
+}
+
+.button Button{
+    transition: .5s;
+    font-family: 'Montserrat',sans-serif;
+    width: 100%;
+}
+
+.button Button:hover{
+    box-shadow: 20px 20px 50px 10px #efefef;
+    transform: scale(1.01);
+}
+
+.cardImage{
+    transition: .5s;
+    cursor: pointer;
+}
+.cardImage:hover{
+    transform: scale(1.04);
+}
+
+.repo__cards{
+    border: 3px solid #efefef;
+}
+
+@media only screen and (max-width: 950px) {
+    .card{
+        margin: 0 1em;
+    }
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400&display=swap');
+
+.whyusConatainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+    padding: 2em 0;
+    background-color: #efffff;
+}
+
+.inner__Pay__Card{
+    padding: 1em;
+}
+
+.whyus__Heading h1{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+    color: #222;
+}
+.whyus__subHeading p{
+    text-align: center;
+    padding: 1em;
+    font-family: 'Recursive',sans-serif;
+}
+
+.card__heading h3{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.currency__icon h2{
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.card__subheading p{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Recursive',sans-serif;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pay__Card{
+    padding: 2em;
+    
+}
+.whyus__other__cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5em 10em 0 10em;
+}
+.inner__Pay__Card{
+    border: 2px solid #efefef;
+    
+}
+
+.firstcardImage img{
+    width: 7em;
+    margin-right: 2em;
+}
+
+.secondcardImage{
+    margin: 0 2em;
+}
+
+.firstCard, .secondCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading p{
+    font-family: 'Recursive',sans-serif;
+}
+
+.heading h2{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+}
+
+
+
+
+@media only screen and (max-width: 950px) {
+    
+
+    .whyus__other__cards{
+        flex-direction: column;
+        padding: 5em 2em 0 2em;
+    }
+
+    .heading h2{
+        font-size: 17px;
+    }
+    .heading p{
+        font-size: 13px;
+        margin: 1em 0;
+        padding-right: 2em;
+    }
+
+    .whyus__subHeading p{
+        font-size: 13px;
+        padding: 0 2em;
+    }
+
+    
+
+    .card__subheading p{
+        font-size: 11px;
+    }
+
+    .firstcardImage img{
+        width: 7em;
+        margin: 0 1.5em 0 1em;
+    }
+
+    .secondCard{
+        padding-top: 1em;
+    }
+}
+
+
+
